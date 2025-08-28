@@ -1,0 +1,58 @@
+import { Testimonial } from '../types';
+
+export const testimonials: Testimonial[] = [
+  {
+    id: '1',
+    name: 'Maria Silva',
+    avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face',
+    rating: 5,
+    comment: 'Excelente atendimento! Comprei meu Honda Civic e não poderia estar mais satisfeita. Equipe muito profissional e preços justos.',
+    vehicle: 'Honda Civic',
+    date: '2024-01-15',
+  },
+  {
+    id: '2',
+    name: 'João Santos',
+    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face',
+    rating: 5,
+    comment: 'Processo de financiamento muito tranquilo. Consegui o melhor negócio para meu Toyota Corolla. Recomendo!',
+    vehicle: 'Toyota Corolla',
+    date: '2024-01-10',
+  },
+  {
+    id: '3',
+    name: 'Ana Costa',
+    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face',
+    rating: 5,
+    comment: 'Adorei a experiência de compra! Vendedores muito atenciosos e me ajudaram a escolher o carro perfeito para minha família.',
+    vehicle: 'Jeep Compass',
+    date: '2024-01-08',
+  },
+  {
+    id: '4',
+    name: 'Carlos Oliveira',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
+    rating: 4,
+    comment: 'Ótimo custo-benefício! Encontrei exatamente o que procurava e ainda consegui um desconto especial.',
+    vehicle: 'Hyundai HB20S',
+    date: '2024-01-05',
+  },
+  {
+    id: '5',
+    name: 'Fernanda Lima',
+    avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face',
+    rating: 5,
+    comment: 'Serviço pós-venda excepcional! Sempre que preciso, sou muito bem atendida. Concessionária de confiança.',
+    vehicle: 'Volkswagen Jetta',
+    date: '2024-01-03',
+  },
+  {
+    id: '6',
+    name: 'Roberto Ferreira',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face',
+    rating: 5,
+    comment: 'Realizei o sonho de ter um BMW! Atendimento VIP e processo de compra muito profissional. Parabéns à equipe!',
+    vehicle: 'BMW 320i',
+    date: '2023-12-28',
+  },
+];
